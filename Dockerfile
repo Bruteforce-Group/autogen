@@ -1,5 +1,5 @@
 # basic setup
-FROM python:3.10
+FROM python:3.12
 RUN apt-get update && apt-get -y update
 RUN apt-get install -y sudo git npm
 

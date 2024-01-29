@@ -48,7 +48,7 @@ setuptools.setup(
             "pytest>=6.1.1",
         ],
         "blendsearch": ["flaml[blendsearch]"],
-        "mathchat": ["sympy", "pydantic==2.5.2", "wolframalpha"],
+        "mathchat": ["sympy", "pydantic==2.6.0", "wolframalpha"],
         "retrievechat": ["chromadb", "sentence_transformers", "pypdf", "ipython"],
         "teachable": ["chromadb"],
         "lmm": ["replicate", "pillow"],
